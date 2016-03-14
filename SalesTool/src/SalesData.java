@@ -5,8 +5,12 @@ public class SalesData {
 	
 	public void display(){
 	
-	System.out.println("This is SalesData.java");
+		System.out.println("Data: ");
 		
+		for(int i=0 ;i<data.length ;i++)
+		{
+		   System.out.println("This is SalesData.java: " + data[i]);
+		}
 	}
 	
 }
